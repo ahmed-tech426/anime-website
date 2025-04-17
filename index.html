@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>Pirates World</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #0a0a23;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: bold;
+    }
+
+    main {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+    }
+
+    .welcome {
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .images-column {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .images-column img {
+      width: 180px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Pirates World</h1>
+    <nav>
+      <a href="login.html">تسجيل الدخول</a>
+      <a href="register.html">إنشاء حساب</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="welcome">مرحبًا بكم في موقعنا!</div>
+    <div class="images-column">
+      <img src="images/attack.jpeg" alt="صورة أنمي">
+      <img src="images/dragon.jpg" alt="صورة أنمي">
+      <img src="images/luffy.jpg" alt="صورة أنمي">
+      <img src="images/naro.jpeg" alt="صورة أنمي">
+      <img src="images/one piece.jpg" alt="صورة أنمي">
+      <img src="images/solo.jpeg" alt="صورة أنمي">
+      <img src="images/hunter.jpeg" alt="صورة أنمي">
+    </div>
+  </main>
+
+  <script src="js/script.js"></script> <!-- ربط الجافا سكريبت بالصفحة -->
+</body>
+</html>
